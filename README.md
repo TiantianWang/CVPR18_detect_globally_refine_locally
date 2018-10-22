@@ -17,16 +17,18 @@ The saliency maps of GLN will serve as the input of BRN.
 
 
 ## Download
-* The saliency maps on 10 datasets including ECSSD, PASCAL-S, SOD, SED1, SED2, MSRA, DUT-OMRON, THUR15K, HKU-IS and DUTS can be found in [Baidu drive](https://pan.baidu.com/s/1ugcMJ252awPpl5k0EkfpHg) or [Google drive](https://drive.google.com/open?id=1cw_5mU20vl8llPnPfQUT5C59NvesRAKK).
+* The saliency maps on 10 datasets including ECSSD, PASCAL-S, SOD, SED1, SED2, MSRA, DUT-OMRON, THUR15K, HKU-IS and DUTS 
+can be found in [Baidu drive]() or [Google drive]().
 
 ## Cite this work
 If you find this work useful in your research, please consider citing:
 
-     @inproceedings{wangiccv17,
-        author={Wang, Tiantian and Borji, Ali and Zhang, Lihe and Zhang, Pingping and Lu, Huchuan},
-        title={A Stagewise Refinement Model for Detecting Salient Objects in Images},
-        booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
-        year = {2017}
+     @inproceedings{wang2018detect,
+       title={Detect Globally, Refine Locally: A Novel Approach to Saliency Detection},
+       author={Wang, Tiantian and Zhang, Lihe and Wang, Shuo and Lu, Huchuan and Yang, Gang and Ruan, Xiang and Borji, Ali},
+       booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+       pages={3127--3135},
+       year={2018}
      }
      
 
