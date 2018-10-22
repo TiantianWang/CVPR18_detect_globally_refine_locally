@@ -1,4 +1,3 @@
-# CVPR18_detect_globally_refine_locally
 
 ## Detect Globally, Refine Locally: A Novel Approach to Saliency Detection (DGRL)
 This package has the source code for the paper "Detect Globally, Refine Locally: A Novel Approach to Saliency Detection" (CVPR18).
