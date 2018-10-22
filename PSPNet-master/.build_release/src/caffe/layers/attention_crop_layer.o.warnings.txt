@@ -1,0 +1,29 @@
+In file included from src/caffe/layers/attention_crop_layer.cpp:3:0:
+./include/caffe/layers/attention_crop_layer.hpp:48:17: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  int out_size = 224;
+                 ^
+./include/caffe/layers/attention_crop_layer.hpp:49:22: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  Dtype mean_value1 = 109.961;
+                      ^
+./include/caffe/layers/attention_crop_layer.hpp:50:22: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  Dtype mean_value2 = 127.21;
+                      ^
+./include/caffe/layers/attention_crop_layer.hpp:51:22: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+  Dtype mean_value3 = 123.645;
+                      ^
+src/caffe/layers/attention_crop_layer.cpp: In instantiation of ‘void caffe::AttentionCropLayer<Dtype>::Backward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<bool>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = float]’:
+src/caffe/layers/attention_crop_layer.cpp:188:1:   required from here
+src/caffe/layers/attention_crop_layer.cpp:129:15: warning: unused variable ‘top_data’ [-Wunused-variable]
+  const Dtype* top_data = top[0]->cpu_data();
+               ^
+src/caffe/layers/attention_crop_layer.cpp:132:6: warning: unused variable ‘in_size’ [-Wunused-variable]
+  int in_size = bottom[0]->shape(2);
+      ^
+src/caffe/layers/attention_crop_layer.cpp: In instantiation of ‘void caffe::AttentionCropLayer<Dtype>::Backward_cpu(const std::vector<caffe::Blob<Dtype>*>&, const std::vector<bool>&, const std::vector<caffe::Blob<Dtype>*>&) [with Dtype = double]’:
+src/caffe/layers/attention_crop_layer.cpp:188:1:   required from here
+src/caffe/layers/attention_crop_layer.cpp:129:15: warning: unused variable ‘top_data’ [-Wunused-variable]
+  const Dtype* top_data = top[0]->cpu_data();
+               ^
+src/caffe/layers/attention_crop_layer.cpp:132:6: warning: unused variable ‘in_size’ [-Wunused-variable]
+  int in_size = bottom[0]->shape(2);
+      ^

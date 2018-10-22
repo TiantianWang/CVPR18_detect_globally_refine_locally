@@ -1,0 +1,12 @@
+./include/caffe/layers/attention_crop_layer.hpp(48): warning: field initializers are a C++11 feature
+
+./include/caffe/layers/attention_crop_layer.hpp(48): warning: field initializers are a C++11 feature
+
+./include/caffe/layers/attention_crop_layer.hpp(48): warning: field initializers are a C++11 feature
+
+./include/caffe/layers/attention_crop_layer.hpp(48): warning: field initializers are a C++11 feature
+
+./include/caffe/layers/attention_crop_layer.hpp:48:25: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+./include/caffe/layers/attention_crop_layer.hpp:49:44: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+./include/caffe/layers/attention_crop_layer.hpp:50:44: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+./include/caffe/layers/attention_crop_layer.hpp:51:43: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11

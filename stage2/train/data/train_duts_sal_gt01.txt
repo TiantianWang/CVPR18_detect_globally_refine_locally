@@ -1,0 +1,2 @@
+/home/iiau/Desktop/noaug/code_cvpr18/stage2/train/data/saliency_map/ILSVRC2012_test_00000004.png 0
+/home/iiau/Desktop/noaug/code_cvpr18/stage2/train/data/saliency_map/ILSVRC2012_test_00000018.png 0

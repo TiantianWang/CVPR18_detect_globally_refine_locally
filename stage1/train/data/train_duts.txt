@@ -1,0 +1,2 @@
+/home/iiau/Desktop/code_cvpr18/stage1/train/data/image/ILSVRC2012_test_00000004.jpg 0
+/home/iiau/Desktop/code_cvpr18/stage1/train/data/image/ILSVRC2012_test_00000018.jpg 0

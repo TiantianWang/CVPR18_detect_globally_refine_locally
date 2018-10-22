@@ -1,0 +1,30 @@
+#net: "/home/zhang/UCF/caffe-sal/models/UCF/train.prototxt"
+#base_lr: 1e-8
+#lr_policy: "step"
+#stepsize: 121098
+#gamma: 0.1
+#iter_size: 8
+#display: 1000
+#average_loss: 1000
+#max_iter: 1000000
+#momentum: 0.9
+#weight_decay: 0.0001
+#snapshot: 1000
+#snapshot_prefix: "/home/zhang/UCF/caffe-sal/models/UCF/model/iiau_IntNet_saliency"
+#solver_mode: GPU
+#test_initialization: false
+#random_seed: 42
+
+train_net: "/home/wang/Desktop/PSPNet-master-new/examples/zengyi/train_val_full_base.prototxt"
+display: 20
+average_loss: 100
+lr_policy: "step"
+base_lr: 1e-9
+stepsize:122000
+gamma:0.1
+momentum: 0.9
+iter_size: 8
+max_iter: 220000
+weight_decay: 0.0001
+snapshot: 5000
+snapshot_prefix: "models/zengyi1/zengyi1"

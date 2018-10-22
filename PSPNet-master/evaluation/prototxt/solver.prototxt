@@ -1,0 +1,20 @@
+train_net: "/home/wang/Desktop/PSPNet-master/evaluation/prototxt/train2.prototxt"
+#test_net: "val.prototxt"
+#test_iter: 736
+# make test net, but don't invoke it from the solver itself
+#test_interval: 999999999
+display: 100
+average_loss: 100
+lr_policy: "poly"
+# lr for unnormalized softmax
+power: 0.9
+base_lr: 1e-10
+# high momentum
+momentum: 0.9
+# no gradient accumulation
+iter_size: 1
+max_iter: 300000
+weight_decay: 0.0001
+snapshot: 20000
+snapshot_prefix: "/home/wang/Desktop/PSPNet-master/evaluation/prototxt/snapshot/snapshot"
+#test_initialization: false
