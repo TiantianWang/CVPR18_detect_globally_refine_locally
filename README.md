@@ -18,7 +18,9 @@ The saliency maps of GLN will serve as the input of BRN.
 ## Download
 * The saliency maps on 10 datasets including ECSSD, PASCAL-S, SOD, SED1, SED2, MSRA, DUT-OMRON, THUR15K, HKU-IS and DUTS 
 can be found in the following links.
+
 GLN: [Baidu drive](https://pan.baidu.com/s/1j7c6GJisRJjevHrpE1xiVg) or [Google drive](https://drive.google.com/open?id=1U0F_IypJOt8TsEorHj6EJEvoNJnBou2f).
+
 BRN: [Baidu drive](https://pan.baidu.com/s/1hC2tax6Eo27FxBvbR0VBvg) or [Google drive](https://drive.google.com/open?id=1t3vJjbCgQzcYxpt_2iOc499XPRMwY5JR)
 ## Cite this work
 If you find this work useful in your research, please consider citing:
