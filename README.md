@@ -7,6 +7,8 @@ This package has the source code for the paper "Detect Globally, Refine Locally:
 
 ## How to use
 Train
+* For Global Localizaiton Network (GLN), using the code in `./stage1/train/` for training. The example image is given in `./stage1/train/data/`. Download the initialized model from [Baidu drive]() or [Google drive]().
+* Boundary Refinement Network (BRN), using the code in `./stage2/train/` for training. The examples image is given in `./stage2/train/data/`. The training set should be resize to 480 * 480 by the 'nearest' method. Using the code in `./stage2/train/data/` to generate the initialization model.
 
 Test
 * Download our trained model from [Baidu drive](https://pan.baidu.com/s/1TqIsKJrRbiQUhOGq1brCDg) or [Google drive](https://drive.google.com/open?id=12uRLj3CnjkLsq4fggJPox-PXh4uuy_FG).
