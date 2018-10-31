@@ -1,4 +1,4 @@
-Original Image Ground truth Saliency Map
+Original Image Ground truth Saliency Map. 
 <img src="0011.jpg" width="20%" > <img src="0011gt.png" width="20%" > <img src="0011.png" width="20%" >.    
 <img src="0035.jpg" width="20%" > <img src="0035gt.png" width="20%" > <img src="0035.png" width="20%" >.      
 <img src="0041.jpg" width="20%" > <img src="0041gt.png" width="20%" > <img src="0041.png" width="20%" >.  
